@@ -1,0 +1,27 @@
+@import "colors";
+
+.text{
+  display: table-cell;
+  text-align: justify;
+  padding: 0 3mm;
+}
+
+.content{
+  display: table;
+  width: 100%
+}
+
+.sidebar{
+  display: table-cell;
+  background-color: $color-background-secondary;
+  padding: 1mm;
+  width: 30%
+}
+
+.sidebar ul{
+  padding-left: 5mm;
+}
+
+.sidebar li{
+  margin: 2mm 0;
+}

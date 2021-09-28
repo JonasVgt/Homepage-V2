@@ -1,0 +1,32 @@
+@import "colors";
+
+
+body{
+  background-color: $color-background-primary;
+  color: $color-primary;
+}
+
+html{
+  font-family: 'Roboto Mono', monospace;
+}
+
+body{
+  margin: 0;
+}
+
+a{
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.wrapper{
+  padding: 3mm;
+  margin: auto;
+  min-height: 100vh;
+  max-width: 80%;
+  box-sizing: border-box;
+}

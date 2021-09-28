@@ -1,0 +1,9 @@
+{
+    "inputDir": "scss/",
+    "outputDir": "css/",
+    "style":"expanded",
+    "sourcemap":"none",
+    "showStartup":false,
+    "showOutput":true,
+    "showError":true
+}

@@ -1,0 +1,23 @@
+.image {
+  height: 100mm;
+  margin: 3mm;
+  flex: auto;
+}
+
+.image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.image_set {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image p {
+  position: relative;
+  bottom: 50px;
+  left: 5px;
+  font-size: 18px;
+}
